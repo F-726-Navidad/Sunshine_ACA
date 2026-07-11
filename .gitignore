@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Streamlit specific cache and configs
+.streamlit/
+!/.streamlit/config.toml
+!/.streamlit/credentials.toml
+
+# Local database/data files (so user data doesn't get pushed to the public web)
+*.json
+*.db
+*.sqlite
